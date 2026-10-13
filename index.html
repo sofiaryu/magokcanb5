@@ -36,7 +36,7 @@ input,select{font-size:16px}.my{border-left:4px solid var(--ac);margin-bottom:8p
 </style></head><body><main id="app"></main>
 <script>
 // ---------- 데이터 ----------
-const R="정다은:O 김현근:J 권유은:C 정태리:S 정루아:O 유태민:J 오유원:C 오원우:O 이수빈:J 조수미:S 남다온:O 최지윤:C 신준서:J 박채윤:C 김태윤:J 김태린B:C 홍예준:J 민지아:O 전찬민:C 김소윤:S 김소민:O 박주호:S 박주윤:C 허지우:O 강나은A:O 김선우:S 김하진:O 박채희:C 오서준:C 박해민:C 김민솔:C 이승호:C 이지유:O 송시은:J 한선율:J 장윤아:J 김세연:J 김리원B:S 김시호:S 조수아:J 배규민:S 한소예:C 이지오:S 김도은:C 이연재:S 김리아B:J 조윤진:S 조윤서:O 심하윤:S 오유겸:S 정윤우:O 이지한:C 임서하:J 임재욱:S 김해준:S 김아린:S 한지유:S 김슬아B:S 유시안:S 김도형:S 권도윤:S 양하윤:S 최현준:O 김슬아A:J 이호은:O 최수빈:O 김지원B:O 정보미:C 송라온:S 김서진:C 신시연:S 김상윤:S 이지하:O 이서하:O 강나은B:O 임채율:O 오지호:S 송하정:S 김동준:S 소리엘:S 김민중:S 박준석:S 정희수:J 이지후:J 박서아:J 성아윤:C";
+const R="정다은:O 김현근:J 권유은:C 정태리:S 정루아:O 유태민:J 오유원:C 오원우:O 이수빈:J 조수미:S 남다온:O 최지윤:C 신준서:J 박채윤:C 김태윤:J 김태린B:C 홍예준:J 민지아:O 전찬민:C 김소윤:S 김소민:O 박주호:S 박주윤:C 허지우:O 강나은A:O 김선우:S 김하진:O 박채희:C 오서준:C 박해민:C 김민솔:C 이승호:C 이지유:O 송시은:J 한선율:J 장윤아:J 김세연:J 김리원B:S 김시호:S 조수아:J 배규민:S 한소예:C 이지오:S 김도은:C 이연재:S 김리아B:J 조윤진:S 조윤서:O 심하윤:S 오유겸:S 정윤우:O 이지한:C 임서하:J 임재욱:S 김해준:S 김아린:S 한지유:S 김슬아B:S 유시안:S 김도형:S 권도윤:S 양하윤:S 최현준:O 김슬아A:J 이호은:O 최수빈:O 김지원B:O 정보미:C 송라온:S 김서진:C 신시연:S 김상윤:S 이지하:O 이서하:O 강나은B:O 임채율:O 오지호:S 송하정:S 김동준:S 소리엘:S 김민중:S 박준석:S 정희수:J 이지후:J 박서아:J 성아윤:C 김진영:O";
 const TN={J:"Jan",C:"Christopher",S:"Sylvia",O:"Joseph"};
 const ROS={};R.split(" ").forEach(p=>{const[n,t]=p.split(":");(ROS[n.toUpperCase()]??=[]).push(TN[t])});
 // 시간: 9시 미만은 오후로 변환 (예: 7:45 → 19:45)
